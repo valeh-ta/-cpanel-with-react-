@@ -1,0 +1,199 @@
+.user {
+    flex: 4;
+    padding: 20px;
+   
+}
+
+.U-titlecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.U-add {
+    width: 80px;
+    padding: 5px;
+    color: aliceblue;
+    border: none;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.U-container {
+    display: flex;
+    margin-top: 20px;
+}
+.u-show {
+    flex: 1;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.u-update {
+    flex: 2;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.U-showtop {
+    display: flex;
+    align-items: center;
+}
+.U-showImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.U-showTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.U-showUserName {
+    font-weight: 600;
+}
+.U-showUserbio {
+    font-weight: 300;
+}
+.U-showButton {
+    margin-top: 20px;
+}
+.u-show-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.u-show-Info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.u-show-icon {
+    margin-right: 10px;
+    font-size: 16px !important;
+}
+
+/*******************/
+.U-Update-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.U-Update-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.U-Update-Title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.U-Update-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.U-Update-item>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.U-Update-input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray ;
+}
+.U-Update-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.U-Update-upload {
+    display: flex;
+    align-items: center;
+}
+.U-Update-icon {
+    cursor: pointer;
+}
+
+.U-Update-button {
+    border: non;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+/*++++++++++++++  new-user  +++++++++++++*/
+
+.new-user {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.n-u-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.n-u-item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.n-u-item>label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: grey;
+}
+.n-u-item>input {
+padding: 10px;
+border: 1px solid gray;
+border-radius: 5px;
+height: 20px;
+}
+.n-u-gender > input {
+    margin-top: 1px;
+}
+
+.n-u-gender > label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.n-u-selectActive {
+    height: 40px;
+    border-radius: 5px;
+}
+.newUserBtn {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}

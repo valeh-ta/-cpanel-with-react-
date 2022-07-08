@@ -1,0 +1,39 @@
+.NewProduct {
+    flex: 4;
+}
+.add-p-form {
+    margin-top: 10px;
+}
+.add-p-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.add-p-item > label {
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 600;
+}
+.add-p-item > input {
+
+
+    padding: 10px;
+  
+}
+.add-p-item > select {
+    padding:  10px;
+ 
+}
+.new-p-Btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkblue;
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
